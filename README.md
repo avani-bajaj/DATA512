@@ -27,9 +27,18 @@ In this assignment, all these 3 stages to create a completely reproducible proje
 *Create a plot to visualize Wikipedia traffic data Visualize Wikipedia traffic with 3 metrics: mobile traffic(for counts and views), desktop traffic(for counts and views) and all traffic (mobile + desktop)
 * Save the visualization as an image file (saved as png file)
 
+### Final visualization 
+![Page Views on English Wikimedia](https://github.com/avani-bajaj/DATA512/blob/main/data512-a1/PlotPageviewsWiki.png)
+
 ## License of the source data 
+[MIT License](https://opensource.org/licenses/MIT)
 ## Wikimedia terms of use 
-## Relevant API documentatio
+We can find the Wikimedia Terms of use [here](https://wikimediafoundation.org/wiki/Terms_of_Use/en)
+
+## Relevant API documentation
+* [Documentation on Pagecounts](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts)
+* [Documentation on Pageviews](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)
+
 ## Source data
 Json files from api calls:
 
