@@ -25,7 +25,7 @@ In this assignment, all these 3 stages to create a completely reproducible proje
 ### 3. Data Analysis
 
 *Create a plot to visualize Wikipedia traffic data Visualize Wikipedia traffic with 3 metrics: mobile traffic(for counts and views), desktop traffic(for counts and views) and all traffic (mobile + desktop)
-* Save the visualization as an image file
+* Save the visualization as an image file (saved as png file)
 
 ## License of the source data 
 ## Wikimedia terms of use 
