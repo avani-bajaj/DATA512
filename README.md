@@ -48,6 +48,22 @@ Json files from api calls:
 * pageviews_mobile-app_201507-202008
 * pageviews_mobile-web_201507-202008
 
+## Known issues or special considerations with the data
+* Pageview API excludes spiders/crawlers, while data from the Pagecounts API does not.
+* As noted in the Wikimedia APIs section above, there is roughly a year overlap where both APIs provide monthly view count data. During this overlap, data from both APIs is stored and plotted. View counts differ between APIs during this overlap because the newer Pageviews API allows users to filter out non-user initiated page views (crawlers, spiders, bots, etc.), while the older Legacy Pagecounts API does not have this ability.
+* The Pageviews API provides monthly view count data for the mobile application and the mobile web site. These values are combined to form the monthly mobile site view count.
+* When fetching monthly view count data with both Wikimedia APIs, the end month used as part of the API call is exclusive. The API call will fetch monthly data for all months from the start month up to the end month.
 
-[Lets go to Quora](https://www.quora.com)
+## Data Schema 
 
+Column name	 | Value | Description
+------------ | ---------- | ---------------------------------
+year | YYYY | Year of Wikipedia traffic from 2008-2017
+month | MM | Month of Wikipedia traffic from Jan 2008- Sept 2017
+timestamp | MMDDYYYY | Timestamp(Datetime format)to create the time series chart
+pagecount_all_views | num_views | Number of pagecounts for mobile and desktop
+pagecount_desktop_views | num_views | Number of pagecounts for desktop 
+pagecount_mobile_views | num_views | Number of pagecounts for mobile
+pageview_all_views | num_views | Number of pageviews for mobile and desktop
+pageview_desktop_views | num_views | Number of pageviews for desktop
+pageview_mobile_views | num_views | Number of pageviews for mobile
