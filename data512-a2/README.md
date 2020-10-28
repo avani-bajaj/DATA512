@@ -1,6 +1,6 @@
 
 
-# DATA 512 A1: Data Curation by Avani Bajaj
+# DATA 512 A2: Data Curation by Avani Bajaj
 
 
 ## Goal
